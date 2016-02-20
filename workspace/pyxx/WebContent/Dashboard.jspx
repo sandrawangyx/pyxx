@@ -1,56 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" 
-      xmlns:c="http://java.sun.com/jsp/jstl/core" 
-      version="2.0">
-  <jsp:directive.page contentType="text/html; charset=UTF-8" 
-    pageEncoding="UTF-8"/>
-  <jsp:output doctype-root-element="html"
-    doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
-    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
-    omit-xml-declaration="true" />
-  <html>
-  
-    <head>
-      <title>pyxx</title>
-      <link rel="StyleSheet"
-        href="${contextPath}/css/style.css"
-        type="text/css" media="screen, print" />
-    </head>
- 
-    <body>
-      <div id="wrap">
-        <div id="header">
-          <jsp:include page="Head.jspx">
-            <jsp:param name="ver" value="1.0" />
-          </jsp:include>
-        </div>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:c="http://java.sun.com/jsp/jstl/core" version="2.0">
+	<jsp:directive.page contentType="text/html; charset=UTF-8"
+		pageEncoding="UTF-8" />
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+	<html xmlns="http://www.w3.org/1999/xhtml">
 
-        <div id="navBar">
-          <jsp:include page="NavBar.jsp">
-          </jsp:include>
-        </div>
-     
-        <div id="main">
-          <jsp:include page="ValidationErrors.jsp" />
-          <c:if test="${not empty sessionScope['breadCrumb']['beforeTail']}">
-            <div class="breadCrumbs" style="padding:1.5em;">
-           
-            </div>
-          </c:if>
-          <c:choose>
-            <c:when test="${not empty requestScope['com.foodrus.util.target']}">
-              <jsp:include page="${requestScope['com.foodrus.util.target']}"></jsp:include>
-            </c:when>
-            <c:otherwise>
-              <jsp:include page="Home.jsp"></jsp:include>
-            </c:otherwise>
-          </c:choose>
-        </div>
-        
-        <div id="footer">
-          <jsp:include page="Footer.jsp"></jsp:include>
-        </div>
-      </div> <!-- #wrap -->
-    </body>
-  </html>
+<head>
+<title>pyxx</title>
+</head>
+
+<body>kkkk
+	<div id="wrap">
+		<div id="header">
+			<jsp:include page="Head.jspx">
+			</jsp:include>
+		</div>
+
+		<div id="navBar">
+			<jsp:include page="NavBar.jsp">
+			</jsp:include>
+		</div>
+
+		<div id="main">
+			<jsp:include page="ValidationErrors.jsp" />
+			<jsp:include page="Home.jspx"></jsp:include>
+
+		</div>
+
+		<div id="footer">
+			<jsp:include page="Footer.jsp"></jsp:include>
+		</div>
+	</div>
+	<!-- #wrap -->
+</body>
+	</html>
 </jsp:root>

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
-	xmlns:c="http://java.sun.com/jsp/jstl/core"
-	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt">
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
 	
 	<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-	</head>
-	<body>
+	
 
 
 	<div class="container">
@@ -26,8 +23,8 @@
 				<div class="logo">
 					<a href="index_cn.php"
 						title="Centro de Línguas Portal Martim Moniz" rel="home"> 
-						<img src="images/logo.png" alt="Centro de Línguas Portal Martim Moniz">
-					</img>
+<!-- 						<img src="images/logo.png" alt="Centro de Línguas Portal Martim Moniz"> -->
+<!-- 					</img> -->
 					</a>
 				</div>
 				<!-- /.logo -->
@@ -45,8 +42,5 @@
 		</div>
 	</div>
 	<!-- /.container -->
-
-
-</body>
-	</html>
+</html>
 </jsp:root>

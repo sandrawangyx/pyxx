@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Home</title>
+</head>
+<body>Hommmmmm
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="main-slideshow">
+					<div class="flexslider">
+						<ul class="slides"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+</jsp:root>

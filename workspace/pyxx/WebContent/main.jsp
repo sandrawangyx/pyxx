@@ -84,16 +84,7 @@
 	
 
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<div class="main-slideshow">
-					<div class="flexslider">
-						<ul class="slides"></ul>
-					</div>
-				</div>
-			</div>
-		</div>
+	
 
 
 		<div id="register">
