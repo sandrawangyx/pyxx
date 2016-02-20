@@ -1,0 +1,257 @@
+/**** Background Colors ****/
+body,
+.lightBtn {
+  background-color: #efefef;
+}
+
+.main-slideshow,
+.widget-item,
+.widget-main,
+.box-content-inner,
+.page-title,
+.grid-event-header,
+.load-more-btn,
+.event-container,
+.gallery-content,
+.blog-post-inner,
+.prev-next-post a,
+#blog-author,
+.widget-main-title,
+.blog-comments-content,
+.contact-page-content,
+.contact-map,
+.course-details,
+#disqus_thread {
+  background-color: white;
+}
+
+.menu-toggle-btn {
+  background-color: #13363f;
+}
+
+.search-form form input {
+  background-color: #13363f;
+}
+
+.responsive_menu {
+  background-color: #194754;
+  color: #fff;
+}
+
+.responsive_menu a{color: #fff;}
+
+.slider-caption,
+.cat-blog,
+.blog-post-meta ul li {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.mainBtn,
+.request-information .submit_field .mainBtn,
+.tag-items a,
+.site-header,
+.main-menu li ul,
+.social_icons li a,
+.footer-media-icons li a,
+.flex-direction-nav a {
+  background-color: #400080;
+}
+
+.main-navigation,
+.site-footer {
+  background-color: #400080;
+}
+
+blockquote,
+.calendar-small,
+.course-list &gt; dt:nth-child(odd),
+.tab-content &gt; .tab-pane {
+  background-color: #f3f3f3;
+}
+
+.s-month,
+#slider-testimonials .prev,
+#slider-testimonials .next,
+.nav-tabs &gt; li.active &gt; a,
+.nav-tabs &gt; li.active &gt; a:hover,
+.nav-tabs &gt; li.active &gt; a:focus {
+  background-color: #4782b2;
+}
+
+/**** Text Colors ****/
+.main-menu li.active a,
+.social-icons li a:hover,
+.site-footer a:hover,
+.event-container .event-time {
+  color: #fecd0b;
+}
+
+.main-menu li.active .sub-menu a:hover,
+.main-menu li a:hover,
+.social-icons li a,
+.social_icons li a,
+.slider-caption h2 a,
+.flex-direction-nav a,
+.footer-widget-title,
+.footer-media-icons li a,
+.mainBtn,
+.request-information .submit_field .mainBtn,
+.s-month,
+#slider-testimonials .prev,
+#slider-testimonials .next,
+.blog-grid-thumb .cat-blog,
+.blog-post-meta ul li,
+.blog-post-meta ul li a,
+.tag-items a,
+.comment-form .mainBtn,
+.course-search-form .mainBtn,
+.nav-tabs &gt; li.active &gt; a,
+.nav-tabs &gt; li.active &gt; a:hover,
+.nav-tabs &gt; li.active &gt; a:focus,
+.nav-tabs &gt; li.active &gt; a,
+.main_menu a {
+  color: white;
+}
+
+body,
+.blog-list-meta a,
+.event-small-meta,
+.blog-grid-meta a,
+.lightBtn,
+.lightBtn:hover,
+.blog-categories ul li a,
+.comment-form label,
+.course-search-form label {
+  color: #666666;
+}
+
+.menu-toggle-btn,
+.menu-toggle-btn:hover {
+  color: #fff;
+}
+
+.main-menu a,
+.main-menu li.active .sub-menu a,
+.main-menu li ul li:before,
+.site-header,
+.site-header a {
+  color: white;
+}
+
+.site-header a:hover {
+  color: #5191c2;
+}
+
+.small-links li:not(:last-child):after,
+.flex-direction-nav a:hover {
+  color: #4185b9;
+}
+
+.site-footer {
+  color: #6b90ad;
+}
+
+.site-footer a {
+  color: white;
+}
+
+.footer-nav li:not(:first-child):before {
+  color: #4e718d;
+}
+
+.bottom-footer p.small-text {
+  color: #6b90ad;
+}
+
+a,
+blockquote h5,
+.blog-categories ul li a:hover,
+.author-name a,
+.author-name a:hover {
+  color: #4782b2;
+}
+
+h1, h2, h3, h4, h5, h6,
+.dark-text,
+.page-title a,
+.s-date,
+.load-more-btn a,
+.mixitup-controls .active,
+.prev-next-post a {
+  color: #282a2c;
+}
+
+.small-text,
+.page-active,
+.request-information input,
+.input-select select,
+.event-contact ul li,
+.comment-form input,
+.comment-form textarea
+.contact-form input,
+.contact-form textarea,
+.course-search-form input,
+.course-search-form select {
+  color: #999;
+}
+
+.page-title h6:not(:first-child):before {
+  color: #cccccc;
+}
+
+/**** Border Colors ****/
+.widget-main-title,
+blockquote,
+.request-information input,
+.input-select select,
+.blog-list-post,
+.event-small-list,
+.prof-list-item,
+.grid-event-header,
+.load-more-btn,
+.search-form-widget input,
+.prev-next-post .whiteBtn,
+.blog-comments-content .media,
+.comment-form input,
+.comment-form textarea,
+.contact-form input,
+.contact-form textarea,
+.course-search-form input,
+.course-search-form select {
+  border-color: #194754 !important;
+}
+
+.search-form form input,
+.main-navigation,
+.main-menu li {
+  border-color: rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.main-menu li ul li {
+  border-color: #004884;
+}
+
+body,
+.main-menu li ul,
+.tab-content &gt; .tab-pane {
+  border-color: #fecd0b;
+}
+
+.site-header,
+.site-footer {
+  border-color: white;
+}
+
+.bottom-footer {
+  border-color: white;
+}
+
+.course-list dt,
+.course-list dt:last-of-type {
+  border-color: #e7eaed;
+}
+</pre></body></html>Xtext/cssUUTF-8P_9http://www.ptmm.ptï¿½ï¿½
+ï¿½ï¿½(ï¿½:ï¿½Pï¿½nï¿½â€¦ï¿½â€Ë†Å½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã‹
+

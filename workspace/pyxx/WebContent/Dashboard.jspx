@@ -5,23 +5,30 @@
 		pageEncoding="UTF-8" />
 	<jsp:output doctype-root-element="html"
 		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
-		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		doctype-system="about:legacy-compact"
 		omit-xml-declaration="true" />
 	<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 <title>pyxx</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</link>
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" href="css/color.css" type="text/css"/>
+
 </head>
 
-<body>kkkk
-	<div id="wrap">
-		<div id="header">
+<body>
+	
+		<div class="site-header">
 			<jsp:include page="Head.jspx">
 			</jsp:include>
 		</div>
 
 		<div id="navBar">
-			<jsp:include page="NavBar.jsp">
+			<jsp:include page="NavBar.jspx">
 			</jsp:include>
 		</div>
 
@@ -31,11 +38,10 @@
 
 		</div>
 
-		<div id="footer">
+		<div class="site-footer">
 			<jsp:include page="Footer.jsp"></jsp:include>
 		</div>
-	</div>
-	<!-- #wrap -->
+	
 </body>
 	</html>
 </jsp:root>
