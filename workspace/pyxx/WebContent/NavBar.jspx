@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<?xml version="1.0" encoding="UTF-8"?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Navigation Bar</title>
 </head>
 <body>
-<div class="nav-bar-main" role="navigation">
+	<div class="nav-bar-main" role="navigation">
 		<div class="container">
-			
+
 			<ul class="main-menu sf-menu sf-js-enabled sf-arrows">
 				<li class="active"><a href="index_cn.php">主页</a></li>
-				
+
 				<li class=""><a href="cursosgeral_cn.php?cat=2"
 					class="sf-with-ul">葡语课程<i class="fa fa-angle-down"></i></a>
 					<ul class="sub-menu animated fadeInRight" style="display: none;">
@@ -38,6 +38,8 @@
 			</ul>
 			<!-- /.social-icons -->
 			<!-- /.main-navigation -->
-
+		</div>
+	</div>
 </body>
-</html>
+	</html>
+</jsp:root>
