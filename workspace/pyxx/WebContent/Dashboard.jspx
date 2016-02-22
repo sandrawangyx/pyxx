@@ -27,7 +27,7 @@
 			</jsp:include>
 		</div>
 
-		<div id="navBar">
+		<div id="navBar" >
 			<jsp:include page="NavBar.jspx">
 			</jsp:include>
 		</div>

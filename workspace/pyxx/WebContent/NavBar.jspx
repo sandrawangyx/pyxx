@@ -3,27 +3,38 @@
 	xmlns:c="http://java.sun.com/jsp/jstl/core">
 	<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Navigation Bar</title>
 </head>
 <body>
 	<div class="nav-bar-main" role="navigation">
-		<div class="container">
+<!-- 		<div class="container"> -->
+			<div class="main-navigation clearfix">
+				<ul class="main-menu sf-menu sf-js-enabled sf-arrows">
+					<li class="active"><a href="index_cn.php"><span
+							style="font-style: normal">主页</span></a></li>
 
-			<ul class="main-menu sf-menu sf-js-enabled sf-arrows">
-				<li class="active"><a href="index_cn.php">主页</a></li>
+					<li class=""><a href="cursosgeral_cn.php?cat=2"
+						class="sf-with-ul"><span>葡语zaixian课程</span> </a>
+						<ul class="sub-menu animated fadeInRight" style="display: none;">
 
-				<li class=""><a href="cursosgeral_cn.php?cat=2"
-					class="sf-with-ul">葡语课程<i class="fa fa-angle-down"></i></a>
-					<ul class="sub-menu animated fadeInRight" style="display: none;">
+							<li><a href="cursos_cn.php?curso=14">学习葡萄牙语意味着什么？</a></li>
+							<li><a href="cursos_cn.php?curso=15">葡萄牙语入门课程</a></li>
+							<li><a href="cursos_cn.php?curso=17">葡萄牙语主题课程</a></li>
+						</ul></li>
 
-						<li><a href="cursos_cn.php?curso=14">学习葡萄牙语意味着什么？</a></li>
-						<li><a href="cursos_cn.php?curso=15">葡萄牙语入门课程</a></li>
-						<li><a href="cursos_cn.php?curso=17">葡萄牙语主题课程</a></li>
-					</ul></li>
-				<li>puyu xuexi ruanjian</li>
-				<li><a href="contact_cn.php">联系我们</a></li>
-			</ul>
+					<li class=""><a href="cursosgeral_cn.php?cat=2"
+						class="sf-with-ul"><span>puyu xuexi ruanjian</span><i
+							class="fa fa-angle-down"></i></a>
+						<ul class="sub-menu animated fadeInRight" style="display: none;">
+
+							<li><a href="cursos_cn.php?curso=14">学习葡萄牙语意味着什么？</a></li>
+							<li><a href="cursos_cn.php?curso=15">葡萄牙语入门课程</a></li>
+							<li><a href="cursos_cn.php?curso=17">葡萄牙语主题课程</a></li>
+						</ul></li>
+					<li><a href="contact_cn.php"><span>联系我们</span></a></li>
+				</ul>
+			</div>
 			<!-- /.main-menu -->
 
 			<ul class="social-icons pull-right">
@@ -38,7 +49,7 @@
 			</ul>
 			<!-- /.social-icons -->
 			<!-- /.main-navigation -->
-		</div>
+<!-- 		</div> -->
 	</div>
 </body>
 	</html>

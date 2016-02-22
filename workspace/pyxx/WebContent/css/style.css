@@ -255,6 +255,7 @@ blockquote h5 {
 .main-navigation {
   border-top: 1px solid;
   font-size: 14px;
+  padding-left: 100px;
 }
 
 .main-menu {
@@ -301,6 +302,10 @@ blockquote h5 {
   margin-left: 10px;
 }
 
+.sf-with-ul span{
+	font-family: Arial, Helvetica, Sans-serif;
+	font-style: normal;
+}
 .social-icons {
   padding: 17px 20px;
   margin: 0;
@@ -1361,5 +1366,6 @@ input, select {
   padding: 0 10px;
   content: '|';
 }
+
 
 
