@@ -38,8 +38,8 @@
 
 		</div>
 
-		<div class="site-footer">
-			<jsp:include page="Footer.jsp"></jsp:include>
+		<div id="footer">
+			<jsp:include page="Footer.jspx"></jsp:include>
 		</div>
 	
 </body>

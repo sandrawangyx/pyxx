@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>footer</title>
+</head>
+<body>
+	<div class="site-footer">
+		<div class="container">
+			<div class="row">
+				
+					
+						<h4 class="footer-widget-title">联系方式</h4>
+						<p>
+							<br> </br>地址:<br>xxxxxxxxxxx 1900-064 Lisboa</br>+351 936 537 340
+						</p>
+					
+					
+				
+			</div>
+			<!-- /.row -->
+			
+			
+				<div class="row">
+				<div class="bottom-footer">
+					<div class="col-md-5">
+						<p class="small-text">
+							© © 2016 xxxx ® <a href="http://www.potmm.cn">版权所有</a>
+						</p>
+					</div>
+					<!-- /.col-md-5 -->
+
+					<div class="col-md-7">
+						<ul class="footer-nav">
+							<li><a href="">主页</a></li>
+							<li><a href="">葡语在线课程</a></li>
+							<li><a href="">学习软件</a></li>
+							<li><a href="contact_cn.php">联系方式</a></li>
+						</ul>
+					</div>
+					<!-- /.col-md-7 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.bottom-footer -->
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.site-footer -->
+</body>
+	</html>
+</jsp:root>

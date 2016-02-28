@@ -1330,7 +1330,7 @@ input, select {
   padding: 0;
   margin: 0;
 }
-.footer-media-icons li {
+/*.footer-media-icons li {
   list-style: none;
   float: left;
   display: block;
@@ -1343,7 +1343,7 @@ input, select {
   margin-left: 1px;
   margin-bottom: 1px;
 }
-
+*/
 .bottom-footer {
   border-top: 1px solid;
   padding-top: 25px;
@@ -1358,6 +1358,7 @@ input, select {
   margin: 0;
   list-style: none;
 }
+
 .footer-nav li {
   display: inline;
   font-size: 12px;
